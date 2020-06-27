@@ -5,6 +5,7 @@ la tabla Clientes tiene como atributos un Id, nombre del cliente y un bono que t
 un id, el nombre del servicio, id del cliente, Costo del servicio. Al final se muestra como se operan con datos de las dos tablas haciendo que salga
 el valor total a pagar. Los siguientes enlaces conrresponden a las descargas de las herramientas empleadas y tutoriales que ayuden a desarrollar mejor
 este Framework. Tambien esta el github del ejemplo y mi correo personal.
+
 Descargar Python:
   -Windows: https://www.python.org/downloads/
 
