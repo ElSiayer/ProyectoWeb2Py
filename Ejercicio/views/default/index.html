@@ -1,0 +1,37 @@
+{{extend 'layout.html'}}
+<div>
+    <div class="web2py_grid">
+    <div style="width:100%;overflow-x:auto;-ms-overflow-x:scroll">
+        <table class="table">
+            <thead class="thead-dark">
+         <tr>
+        <th>ID</th>
+         <th>Servicio</th>
+        <th>Cliente</th>
+        <th>Costo</th>
+         <th>Total</th>
+         </tr>
+       </thead>
+        {{for i in tabla:}}
+        <tr>
+            {{for a in range(len(tabla)+2):}}
+            <td>{{=i[a]}}</td>
+            {{pass}}
+        </tr>
+        {{pass}}
+    </table>
+    </div>
+</div>
+<div>
+    <div class="web2py_grid">
+    <div style="width:100%;overflow-x:auto;-ms-overflow-x:scroll">
+        <table class="table">
+        {{for i in tabla3.values():}}
+        <tr>
+            <td>{{=i}}</td>
+        </tr>
+        {{pass}}
+    </table>
+    </div>
+</div>
+</div>
